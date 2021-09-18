@@ -1,0 +1,1184 @@
+2021-09-17 16:12:19 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-17 16:12:19 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Robots.txt could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txt',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(89): Cake\Http\ControllerFactory->missingController()
+#1 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(37): Cake\Http\ControllerFactory->getControllerClass()
+#2 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create()
+#3 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch()
+#4 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke()
+#5 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(162): Cake\Http\Runner->__invoke()
+#6 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke()
+#7 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke()
+#8 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke()
+#9 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke()
+#10 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#11 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke()
+#12 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run()
+#13 /var/www/porabote/data/www/mosecopro.ru/webroot/index.php(37): Cake\Http\Server->run()
+#14 {main}
+Request URL: /robots.txt
+
+
+2021-09-17 16:12:23 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-17 16:12:27 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-17 16:12:27 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController()
+#1 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create()
+#2 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch()
+#3 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke()
+#4 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(162): Cake\Http\Runner->__invoke()
+#5 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke()
+#6 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke()
+#7 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke()
+#8 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke()
+#9 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#10 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke()
+#11 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run()
+#12 /var/www/porabote/data/www/mosecopro.ru/webroot/index.php(37): Cake\Http\Server->run()
+#13 {main}
+Request URL: /fonts/iconfont/material-icons.css
+Referer URL: https://mosecopro.ru/
+
+
+2021-09-17 16:23:24 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-17 16:23:24 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Robots.txt could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txt',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(89): Cake\Http\ControllerFactory->missingController()
+#1 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(37): Cake\Http\ControllerFactory->getControllerClass()
+#2 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create()
+#3 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch()
+#4 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke()
+#5 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(162): Cake\Http\Runner->__invoke()
+#6 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke()
+#7 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke()
+#8 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke()
+#9 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke()
+#10 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#11 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke()
+#12 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run()
+#13 /var/www/porabote/data/www/mosecopro.ru/webroot/index.php(37): Cake\Http\Server->run()
+#14 {main}
+Request URL: /robots.txt
+
+
+2021-09-17 16:23:25 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-17 17:05:25 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-17 17:05:25 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Robots.txt could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txt',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(89): Cake\Http\ControllerFactory->missingController()
+#1 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(37): Cake\Http\ControllerFactory->getControllerClass()
+#2 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create()
+#3 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch()
+#4 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke()
+#5 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(162): Cake\Http\Runner->__invoke()
+#6 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke()
+#7 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke()
+#8 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke()
+#9 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke()
+#10 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#11 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke()
+#12 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run()
+#13 /var/www/porabote/data/www/mosecopro.ru/webroot/index.php(37): Cake\Http\Server->run()
+#14 {main}
+Request URL: /robots.txt
+
+
+2021-09-17 17:05:29 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-17 17:05:57 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-17 17:05:57 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController()
+#1 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create()
+#2 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch()
+#3 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke()
+#4 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(162): Cake\Http\Runner->__invoke()
+#5 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke()
+#6 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke()
+#7 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke()
+#8 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke()
+#9 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#10 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke()
+#11 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run()
+#12 /var/www/porabote/data/www/mosecopro.ru/webroot/index.php(37): Cake\Http\Server->run()
+#13 {main}
+Request URL: /fonts/iconfont/material-icons.css
+Referer URL: https://mosecopro.ru/
+
+
+2021-09-17 17:16:32 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-17 17:16:39 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-17 17:16:39 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController()
+#1 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create()
+#2 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch()
+#3 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke()
+#4 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(162): Cake\Http\Runner->__invoke()
+#5 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke()
+#6 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke()
+#7 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke()
+#8 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke()
+#9 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#10 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke()
+#11 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run()
+#12 /var/www/porabote/data/www/mosecopro.ru/webroot/index.php(37): Cake\Http\Server->run()
+#13 {main}
+Request URL: /fonts/iconfont/material-icons.css
+Referer URL: https://mosecopro.ru/
+
+
+2021-09-17 18:05:42 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-17 18:05:42 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Robots.txt could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txt',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(89): Cake\Http\ControllerFactory->missingController()
+#1 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(37): Cake\Http\ControllerFactory->getControllerClass()
+#2 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create()
+#3 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch()
+#4 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke()
+#5 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(162): Cake\Http\Runner->__invoke()
+#6 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke()
+#7 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke()
+#8 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke()
+#9 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke()
+#10 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#11 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke()
+#12 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run()
+#13 /var/www/porabote/data/www/mosecopro.ru/webroot/index.php(37): Cake\Http\Server->run()
+#14 {main}
+Request URL: /robots.txt
+
+
+2021-09-17 18:05:43 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-17 18:05:45 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-17 18:05:45 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController()
+#1 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create()
+#2 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch()
+#3 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke()
+#4 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(162): Cake\Http\Runner->__invoke()
+#5 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke()
+#6 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke()
+#7 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke()
+#8 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke()
+#9 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#10 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke()
+#11 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run()
+#12 /var/www/porabote/data/www/mosecopro.ru/webroot/index.php(37): Cake\Http\Server->run()
+#13 {main}
+Request URL: /fonts/iconfont/material-icons.css
+Referer URL: https://mosecopro.ru/news/view/39/v-volokolamske-nochju-proshel-stihijnyj-miting-iz-za-neprijatnogo-zapah.html
+
+
+2021-09-17 18:14:17 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-17 18:14:58 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-17 18:14:58 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController()
+#1 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create()
+#2 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch()
+#3 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke()
+#4 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(162): Cake\Http\Runner->__invoke()
+#5 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke()
+#6 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke()
+#7 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke()
+#8 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke()
+#9 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#10 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke()
+#11 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run()
+#12 /var/www/porabote/data/www/mosecopro.ru/webroot/index.php(37): Cake\Http\Server->run()
+#13 {main}
+Request URL: /fonts/iconfont/material-icons.css
+Referer URL: https://mosecopro.ru/news/view/49/sovetnik-prezidenta-v-rf-sozdaetsja-otdelnaja-sfera-kontrolja-vybrosov-parnikovyh-gazov.html
+
+
+2021-09-17 18:41:00 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-17 18:41:00 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Robots.txt could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txt',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(89): Cake\Http\ControllerFactory->missingController()
+#1 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(37): Cake\Http\ControllerFactory->getControllerClass()
+#2 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create()
+#3 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch()
+#4 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke()
+#5 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(162): Cake\Http\Runner->__invoke()
+#6 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke()
+#7 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke()
+#8 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke()
+#9 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke()
+#10 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#11 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke()
+#12 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run()
+#13 /var/www/porabote/data/www/mosecopro.ru/webroot/index.php(37): Cake\Http\Server->run()
+#14 {main}
+Request URL: /robots.txt
+
+
+2021-09-17 18:41:04 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-17 18:41:13 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-17 18:41:13 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController()
+#1 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create()
+#2 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch()
+#3 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke()
+#4 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(162): Cake\Http\Runner->__invoke()
+#5 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke()
+#6 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke()
+#7 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke()
+#8 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke()
+#9 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#10 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke()
+#11 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run()
+#12 /var/www/porabote/data/www/mosecopro.ru/webroot/index.php(37): Cake\Http\Server->run()
+#13 {main}
+Request URL: /fonts/iconfont/material-icons.css
+Referer URL: https://mosecopro.ru/
+
+
+2021-09-17 19:44:45 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-17 19:44:45 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Robots.txt could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txt',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(89): Cake\Http\ControllerFactory->missingController()
+#1 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(37): Cake\Http\ControllerFactory->getControllerClass()
+#2 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create()
+#3 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch()
+#4 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke()
+#5 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(162): Cake\Http\Runner->__invoke()
+#6 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke()
+#7 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke()
+#8 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke()
+#9 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke()
+#10 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#11 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke()
+#12 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run()
+#13 /var/www/porabote/data/www/mosecopro.ru/webroot/index.php(37): Cake\Http\Server->run()
+#14 {main}
+Request URL: /robots.txt
+
+
+2021-09-17 19:44:49 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-17 19:45:02 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-17 19:45:02 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController()
+#1 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create()
+#2 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch()
+#3 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke()
+#4 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(162): Cake\Http\Runner->__invoke()
+#5 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke()
+#6 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke()
+#7 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke()
+#8 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke()
+#9 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#10 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke()
+#11 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run()
+#12 /var/www/porabote/data/www/mosecopro.ru/webroot/index.php(37): Cake\Http\Server->run()
+#13 {main}
+Request URL: /fonts/iconfont/material-icons.css
+Referer URL: https://mosecopro.ru/
+
+
+2021-09-17 19:48:38 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-17 19:48:38 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Robots.txt could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txt',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(89): Cake\Http\ControllerFactory->missingController()
+#1 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(37): Cake\Http\ControllerFactory->getControllerClass()
+#2 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create()
+#3 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch()
+#4 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke()
+#5 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(162): Cake\Http\Runner->__invoke()
+#6 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke()
+#7 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke()
+#8 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke()
+#9 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke()
+#10 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#11 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke()
+#12 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run()
+#13 /var/www/porabote/data/www/mosecopro.ru/webroot/index.php(37): Cake\Http\Server->run()
+#14 {main}
+Request URL: /robots.txt
+
+
+2021-09-17 20:49:48 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-17 20:49:48 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Robots.txt could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txt',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(89): Cake\Http\ControllerFactory->missingController()
+#1 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(37): Cake\Http\ControllerFactory->getControllerClass()
+#2 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create()
+#3 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch()
+#4 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke()
+#5 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(162): Cake\Http\Runner->__invoke()
+#6 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke()
+#7 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke()
+#8 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke()
+#9 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke()
+#10 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#11 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke()
+#12 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run()
+#13 /var/www/porabote/data/www/mosecopro.ru/webroot/index.php(37): Cake\Http\Server->run()
+#14 {main}
+Request URL: /robots.txt
+
+
+2021-09-17 20:49:52 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-17 20:50:20 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-17 20:50:20 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController()
+#1 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create()
+#2 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch()
+#3 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke()
+#4 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(162): Cake\Http\Runner->__invoke()
+#5 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke()
+#6 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke()
+#7 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke()
+#8 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke()
+#9 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#10 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke()
+#11 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run()
+#12 /var/www/porabote/data/www/mosecopro.ru/webroot/index.php(37): Cake\Http\Server->run()
+#13 {main}
+Request URL: /fonts/iconfont/material-icons.css
+Referer URL: https://mosecopro.ru/
+
+
+2021-09-17 21:08:36 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-17 21:33:27 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-17 21:33:27 Error: [Cake\Routing\Exception\MissingControllerException] Controller class .env could not be found.
+Exception Attributes: array (
+  'class' => '.env',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(89): Cake\Http\ControllerFactory->missingController()
+#1 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(37): Cake\Http\ControllerFactory->getControllerClass()
+#2 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create()
+#3 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch()
+#4 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke()
+#5 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(162): Cake\Http\Runner->__invoke()
+#6 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke()
+#7 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(92): Cake\Http\Runner->__invoke()
+#8 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke()
+#9 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke()
+#10 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#11 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke()
+#12 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run()
+#13 /var/www/porabote/data/www/mosecopro.ru/webroot/index.php(37): Cake\Http\Server->run()
+#14 {main}
+Request URL: /.env
+
+
+2021-09-17 21:33:58 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-17 21:34:03 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-17 21:34:03 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController()
+#1 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create()
+#2 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch()
+#3 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke()
+#4 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(162): Cake\Http\Runner->__invoke()
+#5 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke()
+#6 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke()
+#7 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke()
+#8 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke()
+#9 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#10 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke()
+#11 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run()
+#12 /var/www/porabote/data/www/mosecopro.ru/webroot/index.php(37): Cake\Http\Server->run()
+#13 {main}
+Request URL: /fonts/iconfont/material-icons.css
+Referer URL: https://mosecopro.ru/
+
+
+2021-09-17 21:53:32 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-17 21:53:32 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Robots.txt could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txt',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(89): Cake\Http\ControllerFactory->missingController()
+#1 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(37): Cake\Http\ControllerFactory->getControllerClass()
+#2 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create()
+#3 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch()
+#4 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke()
+#5 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(162): Cake\Http\Runner->__invoke()
+#6 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke()
+#7 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke()
+#8 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke()
+#9 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke()
+#10 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#11 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke()
+#12 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run()
+#13 /var/www/porabote/data/www/mosecopro.ru/webroot/index.php(37): Cake\Http\Server->run()
+#14 {main}
+Request URL: /robots.txt
+
+
+2021-09-17 21:53:37 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-17 21:53:44 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-17 21:53:44 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController()
+#1 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create()
+#2 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch()
+#3 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke()
+#4 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(162): Cake\Http\Runner->__invoke()
+#5 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke()
+#6 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke()
+#7 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke()
+#8 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke()
+#9 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#10 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke()
+#11 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run()
+#12 /var/www/porabote/data/www/mosecopro.ru/webroot/index.php(37): Cake\Http\Server->run()
+#13 {main}
+Request URL: /fonts/iconfont/material-icons.css
+Referer URL: https://mosecopro.ru/
+
+
+2021-09-17 22:56:11 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-17 22:56:11 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Robots.txt could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txt',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(89): Cake\Http\ControllerFactory->missingController()
+#1 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(37): Cake\Http\ControllerFactory->getControllerClass()
+#2 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create()
+#3 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch()
+#4 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke()
+#5 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(162): Cake\Http\Runner->__invoke()
+#6 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke()
+#7 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke()
+#8 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke()
+#9 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke()
+#10 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#11 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke()
+#12 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run()
+#13 /var/www/porabote/data/www/mosecopro.ru/webroot/index.php(37): Cake\Http\Server->run()
+#14 {main}
+Request URL: /robots.txt
+
+
+2021-09-17 22:56:15 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-17 22:56:47 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-17 22:56:47 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController()
+#1 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create()
+#2 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch()
+#3 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke()
+#4 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(162): Cake\Http\Runner->__invoke()
+#5 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke()
+#6 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke()
+#7 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke()
+#8 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke()
+#9 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#10 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke()
+#11 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run()
+#12 /var/www/porabote/data/www/mosecopro.ru/webroot/index.php(37): Cake\Http\Server->run()
+#13 {main}
+Request URL: /fonts/iconfont/material-icons.css
+Referer URL: https://mosecopro.ru/
+
+
+2021-09-17 23:28:05 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-17 23:59:32 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-17 23:59:32 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Robots.txt could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txt',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(89): Cake\Http\ControllerFactory->missingController()
+#1 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(37): Cake\Http\ControllerFactory->getControllerClass()
+#2 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create()
+#3 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch()
+#4 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke()
+#5 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(162): Cake\Http\Runner->__invoke()
+#6 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke()
+#7 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke()
+#8 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke()
+#9 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke()
+#10 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#11 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke()
+#12 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run()
+#13 /var/www/porabote/data/www/mosecopro.ru/webroot/index.php(37): Cake\Http\Server->run()
+#14 {main}
+Request URL: /robots.txt
+
+
+2021-09-17 23:59:36 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-17 23:59:55 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-17 23:59:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController()
+#1 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create()
+#2 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch()
+#3 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke()
+#4 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(162): Cake\Http\Runner->__invoke()
+#5 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke()
+#6 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke()
+#7 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke()
+#8 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke()
+#9 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#10 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke()
+#11 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run()
+#12 /var/www/porabote/data/www/mosecopro.ru/webroot/index.php(37): Cake\Http\Server->run()
+#13 {main}
+Request URL: /fonts/iconfont/material-icons.css
+Referer URL: https://mosecopro.ru/
+
+
+2021-09-18 00:09:11 Warning: DebugKit is disabling itself as your host `www.mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-18 00:10:01 Warning: DebugKit is disabling itself as your host `www.mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-18 00:20:03 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-18 00:25:54 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-18 01:02:32 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-18 01:02:32 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Robots.txt could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txt',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(89): Cake\Http\ControllerFactory->missingController()
+#1 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(37): Cake\Http\ControllerFactory->getControllerClass()
+#2 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create()
+#3 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch()
+#4 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke()
+#5 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(162): Cake\Http\Runner->__invoke()
+#6 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke()
+#7 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke()
+#8 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke()
+#9 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke()
+#10 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#11 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke()
+#12 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run()
+#13 /var/www/porabote/data/www/mosecopro.ru/webroot/index.php(37): Cake\Http\Server->run()
+#14 {main}
+Request URL: /robots.txt
+
+
+2021-09-18 01:02:36 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-18 01:03:07 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-18 01:03:07 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController()
+#1 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create()
+#2 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch()
+#3 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke()
+#4 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(162): Cake\Http\Runner->__invoke()
+#5 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke()
+#6 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke()
+#7 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke()
+#8 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke()
+#9 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#10 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke()
+#11 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run()
+#12 /var/www/porabote/data/www/mosecopro.ru/webroot/index.php(37): Cake\Http\Server->run()
+#13 {main}
+Request URL: /fonts/iconfont/material-icons.css
+Referer URL: https://mosecopro.ru/
+
+
+2021-09-18 01:23:53 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-18 02:24:29 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-18 02:24:29 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Robots.txt could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txt',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(89): Cake\Http\ControllerFactory->missingController()
+#1 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(37): Cake\Http\ControllerFactory->getControllerClass()
+#2 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create()
+#3 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch()
+#4 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke()
+#5 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(162): Cake\Http\Runner->__invoke()
+#6 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke()
+#7 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke()
+#8 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke()
+#9 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke()
+#10 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#11 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke()
+#12 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run()
+#13 /var/www/porabote/data/www/mosecopro.ru/webroot/index.php(37): Cake\Http\Server->run()
+#14 {main}
+Request URL: /robots.txt
+
+
+2021-09-18 02:24:33 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-18 02:25:04 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-18 02:25:04 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController()
+#1 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create()
+#2 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch()
+#3 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke()
+#4 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(162): Cake\Http\Runner->__invoke()
+#5 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke()
+#6 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke()
+#7 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke()
+#8 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke()
+#9 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#10 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke()
+#11 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run()
+#12 /var/www/porabote/data/www/mosecopro.ru/webroot/index.php(37): Cake\Http\Server->run()
+#13 {main}
+Request URL: /fonts/iconfont/material-icons.css
+Referer URL: https://mosecopro.ru/
+
+
+2021-09-18 02:58:27 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-18 03:02:37 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-18 03:02:38 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-18 03:27:06 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-18 03:27:06 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Robots.txt could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txt',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(89): Cake\Http\ControllerFactory->missingController()
+#1 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(37): Cake\Http\ControllerFactory->getControllerClass()
+#2 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create()
+#3 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch()
+#4 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke()
+#5 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(162): Cake\Http\Runner->__invoke()
+#6 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke()
+#7 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke()
+#8 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke()
+#9 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke()
+#10 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#11 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke()
+#12 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run()
+#13 /var/www/porabote/data/www/mosecopro.ru/webroot/index.php(37): Cake\Http\Server->run()
+#14 {main}
+Request URL: /robots.txt
+
+
+2021-09-18 03:27:10 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-18 03:27:44 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-18 03:27:44 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController()
+#1 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create()
+#2 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch()
+#3 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke()
+#4 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(162): Cake\Http\Runner->__invoke()
+#5 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke()
+#6 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke()
+#7 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke()
+#8 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke()
+#9 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#10 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke()
+#11 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run()
+#12 /var/www/porabote/data/www/mosecopro.ru/webroot/index.php(37): Cake\Http\Server->run()
+#13 {main}
+Request URL: /fonts/iconfont/material-icons.css
+Referer URL: https://mosecopro.ru/
+
+
+2021-09-18 03:33:39 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-18 03:34:02 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-18 04:00:31 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-18 04:31:11 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-18 04:31:11 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Robots.txt could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txt',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(89): Cake\Http\ControllerFactory->missingController()
+#1 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(37): Cake\Http\ControllerFactory->getControllerClass()
+#2 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create()
+#3 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch()
+#4 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke()
+#5 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(162): Cake\Http\Runner->__invoke()
+#6 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke()
+#7 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke()
+#8 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke()
+#9 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke()
+#10 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#11 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke()
+#12 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run()
+#13 /var/www/porabote/data/www/mosecopro.ru/webroot/index.php(37): Cake\Http\Server->run()
+#14 {main}
+Request URL: /robots.txt
+
+
+2021-09-18 04:31:15 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-18 04:31:53 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-18 04:31:53 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController()
+#1 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create()
+#2 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch()
+#3 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke()
+#4 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(162): Cake\Http\Runner->__invoke()
+#5 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke()
+#6 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke()
+#7 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke()
+#8 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke()
+#9 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#10 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke()
+#11 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run()
+#12 /var/www/porabote/data/www/mosecopro.ru/webroot/index.php(37): Cake\Http\Server->run()
+#13 {main}
+Request URL: /fonts/iconfont/material-icons.css
+Referer URL: https://mosecopro.ru/
+
+
+2021-09-18 04:59:32 Warning: DebugKit is disabling itself as your host `www.mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-18 05:36:00 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-18 05:36:00 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Robots.txt could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txt',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(89): Cake\Http\ControllerFactory->missingController()
+#1 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(37): Cake\Http\ControllerFactory->getControllerClass()
+#2 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create()
+#3 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch()
+#4 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke()
+#5 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(162): Cake\Http\Runner->__invoke()
+#6 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke()
+#7 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke()
+#8 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke()
+#9 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke()
+#10 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#11 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke()
+#12 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run()
+#13 /var/www/porabote/data/www/mosecopro.ru/webroot/index.php(37): Cake\Http\Server->run()
+#14 {main}
+Request URL: /robots.txt
+
+
+2021-09-18 05:36:04 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-18 05:36:22 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-18 05:36:22 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController()
+#1 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create()
+#2 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch()
+#3 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke()
+#4 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(162): Cake\Http\Runner->__invoke()
+#5 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke()
+#6 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke()
+#7 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke()
+#8 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke()
+#9 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#10 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke()
+#11 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run()
+#12 /var/www/porabote/data/www/mosecopro.ru/webroot/index.php(37): Cake\Http\Server->run()
+#13 {main}
+Request URL: /fonts/iconfont/material-icons.css
+Referer URL: https://mosecopro.ru/
+
+
+2021-09-18 06:03:04 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-18 06:03:04 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Robots.txt could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txt',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(89): Cake\Http\ControllerFactory->missingController()
+#1 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(37): Cake\Http\ControllerFactory->getControllerClass()
+#2 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create()
+#3 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch()
+#4 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke()
+#5 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(162): Cake\Http\Runner->__invoke()
+#6 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke()
+#7 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke()
+#8 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke()
+#9 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke()
+#10 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#11 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke()
+#12 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run()
+#13 /var/www/porabote/data/www/mosecopro.ru/webroot/index.php(37): Cake\Http\Server->run()
+#14 {main}
+Request URL: /robots.txt
+
+
+2021-09-18 06:03:05 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-18 06:38:47 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-18 06:38:47 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Robots.txt could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txt',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(89): Cake\Http\ControllerFactory->missingController()
+#1 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(37): Cake\Http\ControllerFactory->getControllerClass()
+#2 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create()
+#3 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch()
+#4 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke()
+#5 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(162): Cake\Http\Runner->__invoke()
+#6 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke()
+#7 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke()
+#8 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke()
+#9 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke()
+#10 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#11 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke()
+#12 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run()
+#13 /var/www/porabote/data/www/mosecopro.ru/webroot/index.php(37): Cake\Http\Server->run()
+#14 {main}
+Request URL: /robots.txt
+
+
+2021-09-18 06:38:51 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-18 06:39:23 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-18 06:39:23 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController()
+#1 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create()
+#2 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch()
+#3 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke()
+#4 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(162): Cake\Http\Runner->__invoke()
+#5 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke()
+#6 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke()
+#7 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke()
+#8 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke()
+#9 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#10 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke()
+#11 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run()
+#12 /var/www/porabote/data/www/mosecopro.ru/webroot/index.php(37): Cake\Http\Server->run()
+#13 {main}
+Request URL: /fonts/iconfont/material-icons.css
+Referer URL: https://mosecopro.ru/
+
+
+2021-09-18 07:41:46 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-18 07:41:46 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Robots.txt could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txt',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(89): Cake\Http\ControllerFactory->missingController()
+#1 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(37): Cake\Http\ControllerFactory->getControllerClass()
+#2 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create()
+#3 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch()
+#4 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke()
+#5 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(162): Cake\Http\Runner->__invoke()
+#6 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke()
+#7 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke()
+#8 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke()
+#9 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke()
+#10 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#11 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke()
+#12 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run()
+#13 /var/www/porabote/data/www/mosecopro.ru/webroot/index.php(37): Cake\Http\Server->run()
+#14 {main}
+Request URL: /robots.txt
+
+
+2021-09-18 07:41:51 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-18 07:44:15 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-18 07:44:15 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController()
+#1 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create()
+#2 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch()
+#3 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke()
+#4 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(162): Cake\Http\Runner->__invoke()
+#5 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke()
+#6 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke()
+#7 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke()
+#8 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke()
+#9 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#10 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke()
+#11 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run()
+#12 /var/www/porabote/data/www/mosecopro.ru/webroot/index.php(37): Cake\Http\Server->run()
+#13 {main}
+Request URL: /fonts/iconfont/material-icons.css
+Referer URL: https://mosecopro.ru/
+
+
+2021-09-18 09:04:40 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-18 09:04:40 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Robots.txt could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txt',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(89): Cake\Http\ControllerFactory->missingController()
+#1 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(37): Cake\Http\ControllerFactory->getControllerClass()
+#2 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create()
+#3 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch()
+#4 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke()
+#5 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(162): Cake\Http\Runner->__invoke()
+#6 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke()
+#7 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke()
+#8 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke()
+#9 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke()
+#10 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#11 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke()
+#12 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run()
+#13 /var/www/porabote/data/www/mosecopro.ru/webroot/index.php(37): Cake\Http\Server->run()
+#14 {main}
+Request URL: /robots.txt
+
+
+2021-09-18 09:04:44 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-18 09:05:07 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-18 09:05:07 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController()
+#1 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create()
+#2 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch()
+#3 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke()
+#4 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(162): Cake\Http\Runner->__invoke()
+#5 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke()
+#6 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke()
+#7 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke()
+#8 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke()
+#9 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#10 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke()
+#11 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run()
+#12 /var/www/porabote/data/www/mosecopro.ru/webroot/index.php(37): Cake\Http\Server->run()
+#13 {main}
+Request URL: /fonts/iconfont/material-icons.css
+Referer URL: https://mosecopro.ru/
+
+
+2021-09-18 09:16:33 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-18 10:06:47 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-18 10:06:47 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Robots.txt could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txt',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(89): Cake\Http\ControllerFactory->missingController()
+#1 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(37): Cake\Http\ControllerFactory->getControllerClass()
+#2 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create()
+#3 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch()
+#4 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke()
+#5 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(162): Cake\Http\Runner->__invoke()
+#6 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke()
+#7 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke()
+#8 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke()
+#9 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke()
+#10 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#11 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke()
+#12 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run()
+#13 /var/www/porabote/data/www/mosecopro.ru/webroot/index.php(37): Cake\Http\Server->run()
+#14 {main}
+Request URL: /robots.txt
+
+
+2021-09-18 10:06:51 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-18 10:07:24 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-18 10:07:24 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController()
+#1 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create()
+#2 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch()
+#3 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke()
+#4 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(162): Cake\Http\Runner->__invoke()
+#5 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke()
+#6 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke()
+#7 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke()
+#8 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke()
+#9 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#10 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke()
+#11 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run()
+#12 /var/www/porabote/data/www/mosecopro.ru/webroot/index.php(37): Cake\Http\Server->run()
+#13 {main}
+Request URL: /fonts/iconfont/material-icons.css
+Referer URL: https://mosecopro.ru/
+
+
+2021-09-18 10:07:30 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-18 10:07:30 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fonts could not be found.
+Exception Attributes: array (
+  'class' => 'Fonts',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController()
+#1 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create()
+#2 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch()
+#3 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke()
+#4 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(162): Cake\Http\Runner->__invoke()
+#5 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke()
+#6 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke()
+#7 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke()
+#8 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke()
+#9 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#10 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke()
+#11 /var/www/porabote/data/www/mosecopro.ru/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run()
+#12 /var/www/porabote/data/www/mosecopro.ru/webroot/index.php(37): Cake\Http\Server->run()
+#13 {main}
+Request URL: /fonts/iconfont/material-icons.css
+Referer URL: https://mosecopro.ru/
+
+
+2021-09-18 10:11:09 Warning: DebugKit is disabling itself as your host `www.mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2021-09-18 10:21:19 Warning: DebugKit is disabling itself as your host `mosecopro.ru` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.

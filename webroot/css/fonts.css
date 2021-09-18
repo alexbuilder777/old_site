@@ -1,0 +1,18 @@
+@font-face {
+    font-family:'Museo Light'; 
+    src: url(/fonts/Museo-Sans-Cyr/MuseoSansCyrl.otf);
+   }
+
+@font-face {
+    font-family:'Museo Regular'; 
+    src: url(../fonts/Museo-Sans-Cyr/MuseoSansCyrl_0.otf);
+   }
+
+@font-face {
+    font-family:'Museo Medium'; 
+    src: url(../fonts/Museo-Sans-Cyr/MuseoSansCyrl_1.otf);
+   }
+@font-face {
+    font-family:'Museo Bold'; 
+    src: url(../fonts/Museo-Sans-Cyr/MuseoSansCyrl_2.otf);
+   }

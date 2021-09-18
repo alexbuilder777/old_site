@@ -1,0 +1,72 @@
+.tabs-custom  > div {
+  width: 100%;
+  border: 1px solid #eef2f7;
+  border-top: 0;
+  padding: 40px 20px;
+  margin: 0;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #414142;
+}
+
+.tabs-custom__ul {    	
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid #eef2f7;  
+}
+
+.tabs-custom__ul__icon {
+	padding-right: 3px;
+	color: #9299a2;
+	position: relative;
+	top: 1px;
+}
+
+.tabs-custom__ul li { 
+	position: relative;
+	top: 1px;
+	display: inline-flex;
+    width: auto;   
+    list-style: none;
+    line-height: 20px;
+    border: 1px solid #fff;
+    font-weight: 300;
+    margin: 0;
+    font-size: 1.1em;
+    padding: 10px;
+}
+
+.tabs-custom__ul li:hover,.tabs-custom__ul li.choice_selected {
+    border: 1px solid #eef2f7; 
+    border-radius: 4px 4px 0px 0px;
+    border-bottom: 0;
+    border-bottom: 1px solid #fff;
+}
+
+
+.tabs-custom__ul li.choice_selected a {	
+  font-weight: 900;
+  color: #ccc;
+}
+
+
+.tabs-custom__ul li a.link_end {
+    border: 0; 	
+}
+.tabs-custom__ul li.choice_selected a,.tabs-custom__ul li:hover a{
+    color: #333;
+    border-bottom: 1px solid #fff; 
+    font-weight: 300;	
+}
+
+.tabs-custom__ul li a{
+    text-decoration: none;
+    color: #9299a2;
+    display: block;
+    padding: 5px 30px;
+
+    
+    
+    	
+}

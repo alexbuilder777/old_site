@@ -1,0 +1,53 @@
+.btn-panel {
+  display: flex;
+  justify-content: flex-end;
+  align-content: flex-end;
+  align-items: flex-end;	
+  padding: 15px;
+  border-top: 1px solid #eef2f7;
+}
+
+.btn {
+  padding: 10px 15px;
+  font-size: 0.9rem;
+  background: white;
+  border: 1px solid #cbcdcf;
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: Roboto;
+  color: #333;
+  margin: 5px;	
+}
+.btn:hover {
+  background: #c0c2c5;
+  border: 1px solid #c0c2c5;	
+  color: #fff;
+  transition: all 0.4s;
+}
+
+.btn.btn-blue {
+  background: #0275d8;
+  color: #fff;
+  border: 1px solid #0275d8;
+  transition: background 0.4s;	
+}
+.btn.btn-blue:hover {
+  background: #025aa5;	
+}
+
+.btn.btn-sea {
+  font-family: Roboto;	
+  background: #2ed3c5;
+  color: #fff;
+  border: 1px solid #2ed3c5;
+  transition: background 0.4s;
+  padding: 8px 25px;	
+}
+.btn.btn-sea:hover {
+  background: #fcc100;	
+  border: 1px solid #fcc100;
+}
+
+.btn.btn-add {
+  font-size: 0.8rem;
+}

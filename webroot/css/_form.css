@@ -1,0 +1,645 @@
+.input-editable_noactive {
+	border: 0;
+	background: none;
+	font-size: 0.9rem;
+	border-bottom: 1px dashed;
+	color: #0099e9; 
+	cursor: pointer;
+}
+.input-editable_active {
+	background: #fff;
+	font-size: 0.9rem;
+	border: 1px solid #eef2f7;
+	color: #058dd4; 
+	cursor: text;
+	color: #8e8e8f;
+	padding: 5px;
+}
+
+.ui-selectmenu-button::after {
+ /* content: '≡';
+  transform: rotate(0deg);
+  */
+  color: rgba(0, 0, 0, 0.53);
+  -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+  float: right;
+  margin-top: -20px;
+  padding: 0 10px;
+  font-size: 1.5rem;
+}
+
+
+.ui-selectmenu-button {
+  margin: 0;
+}
+
+
+/*  Labels in line with input*/
+.form-inline {padding: 10px 0;  width: 100%;}
+.form-inline__fieldset {
+  background: #fefefe;  
+  padding: 10px;
+}
+.form-inline__input-box {
+  position: relative;	
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 5px;	
+  width: 100%;
+}
+.form-inline__label {	
+  display: flex;
+  align-content: center;
+  min-width: 100px;	
+  flex-grow: 1;	
+  font-size: 0.9rem;
+  color: #8e8e8f;	
+  flex-basis: 25%;
+}
+.form-inline__input-text {
+  flex-grow: 1;		
+  border: 1px solid #eef2f7;
+  line-height: 1.2rem;
+  border-radius: 3px;
+  padding: 0.8rem;
+  font-size: 0.9rem;
+  flex-basis: 75%;	
+}
+.form-inline__select, .ui-selectmenu-button  {
+  flex-grow: 1;		
+  border: 1px solid #eef2f7;
+  line-height: 1.2rem;
+  border-radius: 3px;
+  padding: 0.8rem;
+  font-size: 0.9rem;
+  display: block;
+  background: #fff;
+}
+
+.form-inline__select-div {
+  flex-grow: 1;
+  flex-basis: 75%;	
+  padding: 0;
+  margin: 0;
+}
+
+
+
+/* Форма с классическим расположением лейблов */
+
+.form-base {
+  font-size: 12pt;
+  border: 0px solid #dddfe0;
+  padding: 0px;
+}	
+	
+	
+.form-base__input-box {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap; 
+	align-items: center;
+	justify-content: space-between;
+	padding: 5px 10px;
+}
+
+.form-base__label {
+    display: flex;
+    padding: 10px 0 4px 0;
+    margin: 0;
+	width: 100%;
+	color: #6e6f6f;
+	font-size: 15px;
+}
+
+
+.form-base__input-text, .form-base__textarea {
+  display: flex;
+  flex-grow: 5;	
+  border: 1px solid #c7c9cc;
+  color: #6a6a6a;
+  display: inline-block;
+  padding: 8px 10px;
+  border-radius: 2px;
+  font-size: 14px;
+}
+.form-base__textarea {
+	height: 100px;
+}
+
+
+.form-base__select {	
+  position: relative;
+  width: 100%;
+  margin: 0;
+  line-height: 17px;
+  padding: 10px 10px 10px 18px;
+  border: 1px solid #f1efef; 
+  background: #fff;
+  border-radius: 3px;
+  font-size: 10pt; 
+  background: #fff transparent;  
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+}
+
+.form-base__checkbox {
+  vertical-align: top;
+  margin: 0 3px 0 0;
+  width: 17px;
+  height: 17px;
+}
+#accessOferta {
+	border: 1px solid red;
+}
+
+.form-base__span {
+	display: flex;
+	width: auto;
+	flex-grow: 1;
+	padding: 0 10px;	
+}
+.form-base__icon {
+  color: #01d8c1;	
+}
+.form-base.grey {
+  background: #f8f8f8;
+}  
+
+
+
+/* Форма с лейблами */
+
+.form-ajax {
+	width: 100%;
+	background: #fff;
+	margin: 0;
+	display: block;
+	color: #333;
+	padding: 0px 30px 30px 30px;	
+}
+
+
+.form-ajax__fieldset {
+	padding: 12px;
+}
+
+
+.form-ajax__div { 
+	padding: 10px 5px !important;
+    position: relative; 
+}
+
+.form-ajax__i {
+	display: block;
+	z-index: 10;
+	position: absolute;
+	top: 29px;
+	left: 15px;
+	color: #50bab7;
+	font-size: 10pt;
+}
+
+.form-ajax__i_select {
+	display: block;
+	z-index: 10;
+	position: absolute;
+	top: 29px;
+	left: 15px;
+	color: #50bab7;
+	font-size: 10pt;
+}
+
+
+.form-ajax__i .theme_blue {
+	color: #2082d7;
+}
+
+
+
+
+.form-ajax__input-text,
+.form-ajax__textarea
+{
+	
+	width: 100%;
+	border: 1px solid #eef2f7;
+	background: #fff;
+	margin: 0;
+	padding: 14px 10px 8px 28px;
+	border-radius: 0px;
+	font-size: 11pt;
+}
+
+.form-ajax__textarea {
+	height: 100px;
+}
+
+.form-ajax__label {
+  position: absolute;
+  pointer-events: none;
+  left: 33px;
+  top: 26px;
+  transition: 0.3s ease all;
+  color: #a0a6ae;
+  font-size: 0.8em;
+}
+
+
+.form-ajax__input-text:focus ~ .form-ajax__label,
+.form-ajax__input-text:not(:focus):valid ~ .form-ajax__label,
+.form-ajax__input-select:focus ~ .form-ajax__label,
+.form-ajax__input-select:not(:focus):valid ~ .form-ajax__label
+{
+  top: 12px;
+  bottom: 10px;
+  left: 12px;
+  font-size: 11px;
+  opacity: 1;
+}
+
+
+
+
+.form-ajax__input-select {	
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 17px 10px 12px 28px;
+  border: 1px solid #f1efef; 
+  background: #fafafa;
+  border-radius: 3px;
+  font-size: 10pt; 
+  background: #fff transparent;  
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+}
+
+
+
+.form-ajax div.form-title h3 {
+	border-bottom: 1px dashed #dddfe0;
+	font-size: 1.3em;
+	padding: 8px 12px;
+	color: #333;
+	font-weight: 300;
+	
+}
+
+
+
+.theme_yellow div i {
+	color: #fbf592;
+}
+
+/*  */
+
+.inputs-groups {
+	padding: 10px 0px;
+	margin: 0px;
+}
+
+.inputs-groups-items {
+	border: 1px solid #dfe8f4;
+	padding: 3px 0px;
+	margin: 5px; 
+}
+
+
+
+.inputs-groups-items__label {
+	border: 1px solid #e2effe;
+	position: relative;
+	min-width: 40px;
+	max-width: 300px;
+	border-radius: 4px;
+	margin: 4px 4px 4px 4px;
+	padding: 4px 8px;
+	background: #e5effc;
+	color: #000;	
+}
+
+.inputs-groups-items__close {
+	padding: 5px;
+}
+
+
+
+/*
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+*/
+/* Форма с лейблами 
+.form-register {
+  font-family: RobotoCondensed-Regular, sans-serif;	
+  font-size: 10pt;
+  background: #f6f7f8;
+  border: 1px solid #dddfe0;
+  padding: 20px;
+}
+
+.form-register__fieldset {
+	padding: 12px;
+}
+
+    
+
+.form-register__input-text {
+  border: 1px solid #c7c9cc;
+  color: #6a6a6a;
+  display: inline-block;
+  padding: 8px 10px;
+  border-radius: 2px;
+  min-width: 290px; 
+  font-size: 14px;
+}
+.form-register__label {
+  width: 150px;
+  display: inline-block;
+  color: #6e6f6f;
+}
+
+.form-register__div {
+  clear: both;
+  padding: 10px;
+}
+
+.form-register__icon {
+  color: #01d8c1;	
+}
+*/
+
+/*Auth form*/
+
+.auth-input {
+  background: transparent;
+  position: relative;
+  z-index: 5;
+  border: 0;
+  box-shadow: none;
+  border-radius: 0;
+  border-bottom: 1px solid rgba(160, 160, 160, 0.2);
+  width: 100%;
+  height: 34px;
+  padding: 2px;
+  color: inherit; }
+  .auth-input:focus,
+  .auth-input.focus {
+    border-color: #0cc2aa;
+    border-bottom-width: 2px;
+    padding-bottom: 1px; }
+    .auth-input:focus ~ label,
+    .auth-input.focus ~ label {
+      color: #0cc2aa;
+      opacity: 1;
+      top: 0 !important;
+      font-size: 0.85em !important; }
+  .auth-input:not(:valid) ~ label {
+    top: 20px;
+    font-size: 1em; }
+  .float-label .auth-input.ng-dirty ~ label,  
+  .float-label .auth-input.has-value ~ label {
+    top: 0;
+    font-size: 0.85em;}
+  .auth-input ~ label {
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    font-size: 0.85em;
+    position: absolute;
+    z-index: 0;
+    opacity: 0.5;
+    display: inline-block;
+    top: 0px;
+    left: 0; }
+  .auth-input.disabled,
+  .auth-input[disabled] {
+    opacity: 0.5; }
+
+/*
+.auth-input:empty ~ label
+*/
+
+
+/* Область для загрузки файлов */
+.file-upload-input{    
+    display: none;/* скрываем input file */    
+}
+
+/* задаем стили кнопки выбора файла*/
+
+.file-upload-cntr {    
+    position: relative;    
+    margin-right: 10px;
+    color: #fff;    
+    text-align: left; 
+    padding: 0;       
+}
+
+/* Растягиваем label на всю область блока .file-upload */
+
+.file-upload-input-box {    
+    display: block;        
+    top: 0;        
+    left: 0;        
+    width: 100%;        
+    height: 100%;        
+    cursor: pointer; 
+    padding: 0; 
+    padding: 10px 20px 15px 20px;
+    background: #0fa2d9; 
+    border-radius: 2px; 
+}
+
+/* стиль текста на кнопке*/
+
+.file-upload-input-box__i {
+	position: relative;
+	top: 3px;
+	left: -4px;	 
+	font-size: 25px; 
+    margin: 0; 
+    color: #fff; 
+    margin: 0;
+}
+.file-upload-input-box__i:hover {    
+    fill: #01ac83;    
+}
+
+/* Прелоадер при загрузке файлов */
+
+#cntrUpPrewiev {
+    border: 0px solid #f6f6f6;
+	width: 570px;
+	padding: 0;
+}
+
+#prewievFile {
+	background: #f6f6f6;
+	border-radius: 4px;
+	width: 550px;
+	padding: 10px;
+	margin: 2px;
+}
+
+#prewievFile div#fileData {
+    position: relative;
+	padding: 0 20px 6px 0;
+	color: #4d5456;
+}
+
+#prewievFile div#fileData span {
+    display: inline;
+    float: none;
+    padding: 0;
+    margin: 0;
+    line-height: 20px;
+}
+
+#prewievFile div#fileData svg {
+	position: absolute;
+	top: 3px;
+	right: 3px;
+}
+
+#prewievFile span.colorProgress {
+	padding: 0;
+	display: block;
+	float: none;
+	width: 100%;
+	border: 1px solid #e5e5e5;
+}
+#prewievFile span.colorLabel {
+    position: relative;
+    background: #3097be;
+    height: 3px;
+	padding: 0;
+	display: block;
+	float: none;
+	width: 1%;
+}
+
+
+
+/*==================================================
+  Radios and Checkboxes
+==================================================== */
+
+.control {
+	font-size: 0.9rem;
+	position: relative;
+	display: block;
+	margin-bottom: 15px;
+	padding-left: 30px;
+	cursor: pointer;
+}
+
+.control input {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+}
+.control__indicator {
+	position: absolute;
+	top: 2px;
+	left: 0;
+	width: 20px;
+	height: 20px;
+	background: #fff;
+	border: 2px solid #666666;
+	border-radius: 2px;
+}
+
+.control--radio .control__indicator {
+	border-radius: 50%;
+}
+/* Hover and focus states */
+.control:hover input ~ .control__indicator,
+.control input:focus ~ .control__indicator {
+	background: #baf7f2;
+	border: 2px solid #2ed3c5;
+}
+
+/* Checked state */
+.control input:checked ~ .control__indicator {
+	background: #2ed3c5;
+	border: 2px solid #2ed3c5;
+}
+
+/* Hover state whilst checked */
+.control:hover input:not([disabled]):checked ~ .control__indicator,
+.control input:checked:focus ~ .control__indicator {
+	background: #28bfb2;
+	border: 2px solid #28bfb2;
+}
+
+/* Disabled state */
+.control input:disabled ~ .control__indicator {
+	pointer-events: none;
+	opacity: .6;
+	background: #fff;
+	border: 2px solid #666666;
+}
+
+/* Check mark */
+.control__indicator:after {
+	position: absolute;
+	display: none;
+	content: '';
+}
+
+/* Show check mark */
+.control input:checked ~ .control__indicator:after {
+	display: block;
+}
+
+/* Checkbox tick */
+.control--checkbox .control__indicator:after {
+	top: 4px;
+	left: 8px;
+	width: 3px;
+	height: 8px;
+	transform: rotate(45deg);
+	border: solid #fff;
+	border-width: 0 2px 2px 0;
+}
+
+/* Disabled tick colour */
+.control--checkbox input:disabled ~ .control__indicator:after {
+	border-color: #7b7b7b;
+}
+
+/* Radio button inner circle */
+.control--radio .control__indicator:after {
+	top: 7px;
+	left: 7px;
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	background: #fff;
+}
+
+/* Disabled circle colour */
+.control--radio input:disabled ~ .control__indicator:after {
+	background: #7b7b7b;
+}
+
+
+
+
+

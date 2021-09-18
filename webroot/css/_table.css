@@ -1,0 +1,40 @@
+.basicTable {
+	width: 100%;
+}
+
+
+.basicTable th{
+
+    color: #222426;
+    font-size: 9pt;
+    padding: 10px 30px;
+    font-weight: 900;
+    font-family:Open Sans,Helvetica Neue,sans-serif;
+    list-style: none;
+    background: #fafafa;
+    border-bottom: 4px solid #f0f0f0;
+    border-radius: 1px;	
+
+    background: -moz-linear-gradient(top, #fcfcfc, #f5f5f5); /* Firefox 3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, 
+                color-stop(0%,#fcfcfc), color-stop(100%,#f5f5f5));
+    /* Chrome 10+, Safari 5.1+ */
+    background: -webkit-linear-gradient(top, #fcfcfc, #f5f5f5);
+    background: -o-linear-gradient(top, #fcfcfc, #f5f5f5); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #fcfcfc, #f5f5f5); /* IE10 */
+    background: linear-gradient(top, #fcfcfc, #f5f5f5); /* CSS3 */ 	
+	
+}
+
+.basicTable td {
+	padding: 6px 1px;
+	border-bottom: 1px solid #faf9f9;
+}
+.basicTable td a {
+	padding: 6px 1px;
+}
+.basicTable tr:hover { background-color: #faf9f9; color: #000; }
+
+    .tr_active {display: block;
+	    
+    }
